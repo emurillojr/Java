@@ -1,13 +1,5 @@
 import java.util.Scanner;
 
-/**
- * 
- */
-
-/**
- * @author BGANEK
- *
- */
 public class TernaryOperator {
 
 	/**
@@ -19,17 +11,16 @@ public class TernaryOperator {
 		System.out.println("Enter Sales Amount");
 
 		float salesAmount = keyboard.nextFloat();
-		
-		if (salesAmount < 1000){
+
+		if (salesAmount < 1000) {
 			System.out.println("You haven't made enough money");
-		}
-		else
+		} else
 			System.out.println("Good Job!");
-		
-		System.out.println("You did a " + ((salesAmount < 1000) ? "bad":"good") + " job");
-				
+
+		System.out.println("You did a " + ((salesAmount < 1000) ? "bad" : "good") + " job");
+
 		keyboard.close();
-		
+
 	}
 
 }

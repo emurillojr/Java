@@ -11,19 +11,17 @@ public class EncapsulationExample {
 		String lastName = "";
 		String tryAgain = "";
 		Scanner keyboard = new Scanner(System.in);
-		
-		do
-		{
-		System.out.println("Enter the new salesperson's name");
-		firstName = keyboard.next();
-		lastName = keyboard.nextLine();
-		
-		
-		SalesPerson newPerson = new SalesPerson(firstName,lastName);
-		newPerson.print(newPerson);
-		System.out.println("Try again?");
-		tryAgain = keyboard.nextLine();
-		} while (!tryAgain.toUpperCase().equals("N")); 
+
+		do {
+			System.out.println("Enter the new salesperson's name");
+			firstName = keyboard.next();
+			lastName = keyboard.nextLine();
+
+			SalesPerson1 newPerson = new SalesPerson1(firstName, lastName);
+			newPerson.print(newPerson);
+			System.out.println("Try again?");
+			tryAgain = keyboard.nextLine();
+		} while (!tryAgain.toUpperCase().equals("N"));
 		System.out.println("Exit Program");
 		keyboard.close();
 	}

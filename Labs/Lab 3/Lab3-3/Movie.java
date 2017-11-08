@@ -1,7 +1,5 @@
 
-
 public class Movie {
-	
 
 	private String movieName;
 	private int terrible;
@@ -9,7 +7,7 @@ public class Movie {
 	private int ok;
 	private int good;
 	private int great;
-	
+
 	public String getMovieName() {
 		return movieName;
 	}
@@ -17,19 +15,18 @@ public class Movie {
 	public void setMovieName(String movieName) {
 		this.movieName = movieName;
 	}
-	
-	public enum MPAArating { G ("G"), PG ("PG"), PG13 ("PG13"), R ("R"), N ("NOTRATED");
-		
+
+	public enum MPAArating {
+		G("G"), PG("PG"), PG13("PG13"), R("R"), N("NOTRATED");
+
 		private final String rating;
-		
-		private MPAArating (String rating)
-		{
+
+		private MPAArating(String rating) {
 			this.rating = rating;
 		}
-		
-		public String getRating()
-		{
-		return rating;
+
+		public String getRating() {
+			return rating;
 		}
 	}
 
@@ -73,49 +70,45 @@ public class Movie {
 		this.great = great;
 	}
 
-
-	//default
-	public Movie(){
+	// default
+	public Movie() {
 		movieName = "";
 		terrible = 0;
 		bad = 0;
 		ok = 0;
 		good = 0;
 		great = 0;
-		
+
 	}
-	
-	public Movie(String name){
+
+	public Movie(String name) {
 		movieName = name;
 	}
-	
 
-	public void addRating(int rated){
-		if (rated > 0 || rated <6){
-			switch (rated)
-            {
-                case 1: 
-                	terrible++;
-                	break;
-                case 2: 
-                	bad++;
-                	break;
-                case 3: 
-                	ok++;
-                	break;
-                case 4: 
-                	good++;
-                	break;
-                case 5: 
-                	great++;
-                	break;
-            }
+	public void addRating(int rated) {
+		if (rated > 0 || rated < 6) {
+			switch (rated) {
+			case 1:
+				terrible++;
+				break;
+			case 2:
+				bad++;
+				break;
+			case 3:
+				ok++;
+				break;
+			case 4:
+				good++;
+				break;
+			case 5:
+				great++;
+				break;
+			}
 		}
 	}
-	
-	public double getAverage()
-	{
-		double averageRating = (terrible + 2*bad + 3*ok + 4*good + 5*great) / 5.0;
+
+	public double getAverage() {
+		double averageRating = (terrible + 2 * bad + 3 * ok + 4 * good + 5 * great) / 5.0;
 		return averageRating;
 	}
 }

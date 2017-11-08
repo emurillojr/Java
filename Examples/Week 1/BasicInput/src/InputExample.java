@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-
 public class InputExample {
 	public static final double INTEREST_RATE = 0.77;
+
 	/**
 	 * @param args
 	 */
@@ -14,16 +14,14 @@ public class InputExample {
 		int loanAmountInt;
 		System.out.println("Enter the loan amount");
 		loanRequest = keyboard.nextDouble();
-		
-		
+
 		loanAmount = loanRequest * INTEREST_RATE;
-		loanAmountInt = (int)loanAmount;
-		
+		loanAmountInt = (int) loanAmount;
+
 		System.out.println("loanAmount = " + loanAmount);
 		System.out.println("loanAmountInt = " + loanAmountInt);
-		
+
 		keyboard.close();
-	
 
 	}
 

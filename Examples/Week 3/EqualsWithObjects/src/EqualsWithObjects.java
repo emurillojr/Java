@@ -6,20 +6,17 @@ public class EqualsWithObjects {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		SalesPerson firstGuy = new SalesPerson("bruce", "ganek");
-		SalesPerson secondGuy = new SalesPerson("bruce","ganek");
-		
-		if (firstGuy == secondGuy)
-		{
+		SalesPerson2 firstGuy = new SalesPerson2("Bruce", "Ganek");
+		SalesPerson2 secondGuy = new SalesPerson2("Bruce", "Ganek");
+
+		if (firstGuy == secondGuy) {
 			System.out.println("The two people are equal");
-		}
-		else
+		} else
 			System.out.println("The two people are not equal");
-			
-		if (firstGuy.equals(secondGuy)){
+
+		if (firstGuy.equals(secondGuy)) {
 			System.out.println("The two people are equal");
-		}
-		else
+		} else
 			System.out.println("The two people are not equal");
 	}
 

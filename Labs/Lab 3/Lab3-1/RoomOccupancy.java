@@ -1,11 +1,9 @@
 
 public class RoomOccupancy {
-	
-	
+
 	private int numberinRoom;
 	static private int totalNumber = 0;
 
-	
 	public int getNumberinRoom() {
 		return numberinRoom;
 	}
@@ -22,38 +20,37 @@ public class RoomOccupancy {
 		totalNumber = totNumber;
 	}
 
-	//default
-	public RoomOccupancy(){
+	// default
+	public RoomOccupancy() {
 		numberinRoom = 0;
-		
+
 	}
-	
-	public RoomOccupancy(int numinRoom, int totNumber){
+
+	public RoomOccupancy(int numinRoom, int totNumber) {
 		numberinRoom = numinRoom;
 		totalNumber = totNumber;
 	}
-	
-	public void addOneToRoom(){
+
+	public void addOneToRoom() {
 		numberinRoom++;
 		totalNumber++;
-		//return numberinRoom;
+		// return numberinRoom;
 	}
-	
-	public void removeOneFromRoom(){
-		if (numberinRoom > 0){
+
+	public void removeOneFromRoom() {
+		if (numberinRoom > 0) {
 			numberinRoom--;
 			totalNumber--;
-		}
-		else{
+		} else {
 			System.out.println("There is no one else to remove.");
 		}
 	}
-	
-	public int getNumber(){
+
+	public int getNumber() {
 		return numberinRoom;
 	}
-	
-	static public int getTotal(){
+
+	static public int getTotal() {
 		return totalNumber;
 	}
 }

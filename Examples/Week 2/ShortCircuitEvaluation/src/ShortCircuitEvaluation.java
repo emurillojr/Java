@@ -12,29 +12,25 @@ public class ShortCircuitEvaluation {
 		boolean bStatus = false;
 		months = 0;
 		salesAmount = 1000;
-		
-		if ((bStatus) && ((salesAmount / months) > 0)){
+
+		if ((bStatus) && ((salesAmount / months) > 0)) {
 			salesPerMonth = salesAmount / months;
 			System.out.println("salesPerMonth = " + salesPerMonth);
-		}
-		else
+		} else
 			System.out.println("Error calculating sales per month");
-		
-		if ((bStatus) & ((salesAmount / months) > 0)){
+
+		if ((bStatus) & ((salesAmount / months) > 0)) {
 			salesPerMonth = salesAmount / months;
 			System.out.println("salesPerMonth = " + salesPerMonth);
-		}
-		else
+		} else
 			System.out.println("Error calculating sales per month with 'eager operator'");
-		
-		if (((salesAmount / months) > 0) && (bStatus)){
+
+		if (((salesAmount / months) > 0) && (bStatus)) {
 			salesPerMonth = salesAmount / months;
 			System.out.println("salesPerMonth = " + salesPerMonth);
-		}
-		else
+		} else
 			System.out.println("Error calculating sales per month");
-			
-		
+
 	}
 
 }

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Examples/Week 1/BasicInput/src"/>
+	<classpathentry kind="src" path="Examples/Week 1/BasicVariables/src"/>
+	<classpathentry kind="src" path="Examples/Week 1/HelloWorld/src"/>
+	<classpathentry kind="src" path="Examples/Week 1/IncrementDecrement/src"/>
+	<classpathentry kind="src" path="Examples/Week 1/ModulusExample/src"/>
+	<classpathentry kind="src" path="Examples/Week 1/PrintfExample/src"/>
+	<classpathentry kind="src" path="Examples/Week 1/StringExample/src"/>
+	<classpathentry kind="src" path="Examples/Week 1/UseDelimiter/src"/>
+	<classpathentry kind="src" path="Examples/Week 2/BooleanVariable/src"/>
+	<classpathentry kind="src" path="Examples/Week 2/ClassEquals/src"/>
+	<classpathentry kind="src" path="Examples/Week 2/Ennumeration/src"/>
+	<classpathentry kind="src" path="Examples/Week 2/ShortCircuitEvaluation/src"/>
+	<classpathentry kind="src" path="Examples/Week 2/SwitchWithStrings/src"/>
+	<classpathentry kind="src" path="Examples/Week 2/TernaryOperator/src"/>
+	<classpathentry kind="src" path="Examples/Week 3/Accessors/src"/>
+	<classpathentry kind="src" path="Examples/Week 3/EncapsulationExample/src"/>
+	<classpathentry kind="src" path="Examples/Week 3/EqualsWithObjects/src"/>
+	<classpathentry kind="src" path="Examples/Week 3/InstanceAndStaticVariables/src"/>
+	<classpathentry kind="src" path="Labs/Lab 1"/>
+	<classpathentry kind="src" path="Labs/Lab 2"/>
+	<classpathentry kind="src" path="Labs/Lab 3/Lab3-1"/>
+	<classpathentry kind="src" path="Labs/Lab 3/Lab3-2"/>
+	<classpathentry kind="src" path="Labs/Lab 3/Lab3-3"/>
+	<classpathentry kind="src" path="Labs/Lab 4/4-1"/>
+	<classpathentry kind="src" path="Labs/Lab 4/4-2"/>
+	<classpathentry kind="src" path="Labs/Lab 5"/>
+	<classpathentry kind="output" path="Examples/Week 1/BasicInput/bin"/>
+</classpath>
