@@ -18,7 +18,8 @@ Activity Level (increase the total BMR by the indicated percent)
 -Sedentary – increase by 20 %  
 -Somewhat Active (exercise occasionally) – increase by 30%  
 -Active (exercise 3-4 days per week) – increase by 40%  
--Highly active (exercise every day) – increase by 50%   
+-Highly active (exercise every day) – increase by 50%  
+  
 A typical chocolate bar will contain around 230 calories. Output the amount of chocolate bars that should be consumed to maintain one’s weight based on whether the person is a man or a woman – output to two decimal places.  
 The only error checking that your program needs to do is to verify that the sex entered is either an “M” or “F”. The program needs to keep asking the user for data until they finally type either an M or F.  
 Sample Output 1  
