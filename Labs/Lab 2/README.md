@@ -10,11 +10,11 @@ BMG = 655 + (4.3 x weight in pounds) + (4.7 x height in inches) – (4.7 x age i
 The calories needed for a male to maintain his weight is:  
 BMG = 66 + (6.3 x weight in pounds) + (12.9 x height in inches) – (6.8 x age in years)  
 Write a program that allows the user to input the following information:  
-*	Weight in pounds
-*	Height in inches
-*	Age in years
-*	Sex (“M” or “F”)
-*	Activity Level  (increase the total BMR by the indicated percent)  
+Weight in pounds  
+Height in inches  
+Age in years  
+Sex (“M” or “F”)  
+Activity Level (increase the total BMR by the indicated percent)  
 -Sedentary – increase by 20 %  
 -Somewhat Active (exercise occasionally) – increase by 30%  
 -Active (exercise 3-4 days per week) – increase by 40%  
